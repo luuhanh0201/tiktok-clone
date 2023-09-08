@@ -5,11 +5,11 @@ import SideBar from "./SideBar";
 
 function DefaultLayout({ children }: { children: ReactNode }) {
     return (
-        <div>
+        <div className='w-full flex flex-col items-center'>
             <Header />
-            <div>
+            <div style={{ width: "1240px" }} className='flex'>
                 <SideBar />
-                <div>
+                <div className='flex-1'>
                     {children}
                 </div>
             </div>

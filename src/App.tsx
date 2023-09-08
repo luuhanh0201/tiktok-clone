@@ -7,7 +7,7 @@ type LayoutType = any
 function App() {
   return (
     <Router>
-      <div className="bg-red-200">
+      <div >
         <Routes>
           {
             publicRoutes.map((route, index) => {
