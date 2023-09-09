@@ -4,6 +4,8 @@ import Profile from "@/pages/Profile";
 import Upload from "@/pages/Upload";
 import HeaderOnly from "@/components/Layout/HeaderOnly";
 import Search from "@/pages/Search";
+import Explore from "@/pages/Explore";
+import Live from "@/pages/Live";
 
 interface Route {
     path: string;
@@ -24,6 +26,14 @@ export const publicRoutes: Route[] = [
     {
         path: "/profile",
         component: Profile
+    },
+    {
+        path: "/explore",
+        component: Explore
+    },
+    {
+        path: "/live",
+        component: Live
     },
     {
         path: "/upload",
