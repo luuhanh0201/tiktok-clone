@@ -46,6 +46,7 @@ function Header() {
                             onChange={onChangeSearch}
                             value={searchResult}
                             name="search"
+                            autoComplete="off"
                             className="h-4/6 w-full rounded-3xl outline-none px-4 bg-slate-50 hover:border duration-200"
                             type="text"
                             spellCheck={false}
